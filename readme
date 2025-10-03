@@ -1,2 +1,4 @@
 1. create .env file under root and create OPENAI_API_KEY=
 2. create a folder put resume inside
+Develop and test step by step in resumeParsetest.ipynb
+Or execute `python .\src\main.py` to start.
