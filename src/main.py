@@ -43,8 +43,7 @@ def main():
 
     promp = prompt_template.invoke({'resume_text': resume_text})
     response = modle.invoke(promp)
-    
-    # 显示提取的简历信息
+
     result = response.model_dump()
     print(json.dumps(result, indent=2, ensure_ascii=False))
 
