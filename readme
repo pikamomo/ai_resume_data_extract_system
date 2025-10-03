@@ -1,1 +1,2 @@
-ai_resume_data_extract_system
+1. create .env file under root and create OPENAI_API_KEY=
+2. create a folder put resume inside
